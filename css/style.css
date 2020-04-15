@@ -1,0 +1,109 @@
+/**/
+
+@import url("https://use.typekit.net/uxb2ifm.css");
+body {
+    font-family: azo-sans-web, sans-serif;
+    display: grid;
+    background-color: dodgerblue;
+    padding: 100px 20px 0 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 150px;
+    grid-auto-flow: dense;
+    font-size: 18px;
+    grid-gap: 10px;
+    text-shadow: 1px 1px 0 #00000066;
+    background-image: url(../img/rembrandt.jpg);
+    background-blend-mode: multiply;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1,
+h2 {
+    color: gold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: 800;
+    margin: -79px 0 0 18px;
+    writing-mode: sideways-lr;
+    font-size: 4rem;
+    line-height: 3.7rem;
+}
+
+h2 {
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.nav {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.self {
+    padding: 2em 0;
+    color: white
+}
+
+.self a {
+    color: white
+}
+
+.ead {
+    font-size: 10px;
+}
+
+.ead>a>.small {
+    font-size: 7.33px;
+}
+
+.ead>a>.iso {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+nav>li {
+    list-style-type: none;
+    text-align: right;
+    border-bottom: 2px solid #00000066;
+    background-color: transparent;
+}
+
+nav>li:first-child {
+    border-top: 2px solid #00000066;
+}
+
+nav>li>a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1ex;
+}
+
+.afl {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.afl>a>.logo {
+    max-width: 50%;
+    height: auto;
+}
+
+section {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+}
