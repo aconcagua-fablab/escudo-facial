@@ -27,10 +27,12 @@ h2 {
 
 h1 {
     font-weight: 800;
-    margin: -79px 0 0 18px;
+    margin: -4rem auto 0 auto;
     writing-mode: sideways-lr;
     font-size: 4rem;
+    width: 7.5rem;
     line-height: 3.7rem;
+    grid-column: span 2;
 }
 
 h2 {
@@ -40,7 +42,6 @@ h2 {
 
 .nav {
     grid-column: span 1;
-    grid-row: span 1;
 }
 
 .self {
@@ -58,6 +59,12 @@ h2 {
 
 .ead>a>.small {
     font-size: 7.33px;
+}
+
+.ead>a {
+    display: block;
+    margin: 0 auto;
+    max-width: 155px;
 }
 
 .ead>a>.iso {
