@@ -1,6 +1,15 @@
-/* Estilos: Escudo Laminar Facial*/
+/*  
+
+Escudo Laminar Facial
+diseño: @hspencer
+
+*/
 
 @import url("https://use.typekit.net/uxb2ifm.css");
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: azo-sans-web, sans-serif;
     display: grid;
@@ -157,9 +166,16 @@ nav>li>a:hover {
 
 .header {
     margin-top: -100px;
+    background-color: darkblue;
 }
 
-.thanks {}
+.files {
+    background-color: orangered;
+}
+
+.thanks {
+    background-color: rgb(81, 105, 2);
+}
 
 ul.check li {
     list-style-image: url(../img/check.svg);
@@ -188,6 +204,7 @@ ul.arrow li {
     display: block;
     margin: -1em;
     padding: 1em;
+    width: calc(100% + 2em);
 }
 
 .all:hover {
@@ -202,7 +219,7 @@ ul.arrow li {
 }
 
 .foto img {
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 2px;
 }
@@ -214,10 +231,11 @@ ul.arrow li {
 @media only screen and (max-width: 720px) {
     body {
         display: block;
-        margin: 1em;
+        margin: 4px;
     }
     section {
-        margin-bottom: 1em;
+        margin-bottom: 4px;
+        ;
     }
     .header h1 {
         writing-mode: horizontal-tb;
