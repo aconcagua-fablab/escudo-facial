@@ -207,6 +207,10 @@ ul.arrow li {
     border-radius: 2px;
 }
 
+.u {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 720px) {
     body {
         display: block;
