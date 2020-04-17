@@ -39,10 +39,9 @@ h1 {
     margin: 0 auto;
     writing-mode: sideways-lr;
     text-align: right;
-    font-size: 4rem;
-    width: 7.4rem;
-    line-height: 3.7rem;
-    grid-column: span 2;
+    font-size: 3rem;
+    width: auto;
+    line-height: 2.7rem;
 }
 
 h2 {
@@ -196,7 +195,7 @@ ul.arrow li {
 }
 
 .foto {
-    mix-blend-mode: normal;
+    /* mix-blend-mode: normal; */
     padding: 0;
     overflow: hidden;
     background-color: transparent;
