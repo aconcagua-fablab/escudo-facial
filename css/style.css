@@ -1,36 +1,46 @@
-/**/
+/* Estilos: Escudo Laminar Facial*/
 
 @import url("https://use.typekit.net/uxb2ifm.css");
 body {
     font-family: azo-sans-web, sans-serif;
     display: grid;
-    background-color: dodgerblue;
-    padding: 100px 20px 0 20px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-template-rows: 150px;
+    padding: 100px 4px 0 4px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 200px;
+    grid-gap: 4px;
     grid-auto-flow: dense;
     font-size: 18px;
-    grid-gap: 10px;
     text-shadow: 1px 1px 0 #00000066;
-    background-image: url(../img/rembrandt.jpg);
-    background-blend-mode: multiply;
-    background-position: right bottom;
-    background-repeat: no-repeat;
+    background-color: rgb(0, 22, 93);
     min-height: 100vh;
+    hyphens: auto;
+    background-color: rgb(240, 239, 230);
+    background-image: linear-gradient(39deg, rgba(246, 246, 243, 1) 0%, rgba(245, 244, 237, 1) 79%, rgba(228, 225, 209, 1) 100%);
+    background-blend-mode: multiply;
+    color: white;
+}
+
+section {
+    padding: 1em;
+    background-color: dodgerblue;
+    mix-blend-mode: multiply;
+    border-radius: 2px;
 }
 
 h1,
 h2 {
-    color: gold;
     text-transform: uppercase;
+    hyphens: auto;
+    mix-blend-mode: normal !important;
 }
 
 h1 {
     font-weight: 800;
-    margin: -4rem auto 0 auto;
+    margin: 0 auto;
     writing-mode: sideways-lr;
+    text-align: right;
     font-size: 4rem;
-    width: 7.5rem;
+    width: 7.4rem;
     line-height: 3.7rem;
     grid-column: span 2;
 }
@@ -40,63 +50,67 @@ h2 {
     margin-top: 0;
 }
 
-.nav {
-    grid-column: span 1;
-}
-
-.self {
-    padding: 2em 0;
-    color: white
-}
-
-.self a {
-    color: white
-}
-
 .ead {
-    font-size: 10px;
+    font-family: alegreya, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.ead>a>.small {
-    font-size: 7.33px;
+.ead img {
+    max-width: 80%;
+    margin: 1em 10% 1em 10%;
 }
 
-.ead>a {
-    display: block;
-    margin: 0 auto;
-    max-width: 155px;
+.ead .small {
+    font-size: 70%
 }
 
-.ead>a>.iso {
+.ead .iso {
     font-size: 2em;
 }
 
 a {
+    color: white;
     text-decoration: none;
-    color: gold;
+}
+
+.nav {
+    background-color: transparent;
+    padding-top: 0;
 }
 
 nav>li {
     list-style-type: none;
     text-align: right;
-    border-bottom: 2px solid #00000066;
-    background-color: transparent;
+    border-bottom: .2rem solid white;
+    margin: 0 -1em;
 }
 
 nav>li:first-child {
-    border-top: 2px solid #00000066;
+    border-top: .2rem solid white;
 }
 
 nav>li>a {
-    display: inline-block;
+    display: block;
+    background-color: dodgerblue;
+    border-radius: 2px;
     text-transform: uppercase;
     padding: 1ex;
 }
 
+nav>li>a:hover {
+    background-color: rgb(12, 88, 165);
+}
+
 .afl {
-    color: white;
+    display: flex;
     font-weight: 800;
     text-align: center;
+}
+
+.afl a {
+    /* align-self: center; */
+    object-fit: cover;
 }
 
 .afl>a>.logo {
@@ -104,13 +118,106 @@ nav>li>a {
     height: auto;
 }
 
-section {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-p {
+.lg {
     font-size: 1.5rem;
     font-weight: 300;
-    color: white;
+}
+
+.lg strong {
+    font-weight: 700;
+}
+
+.lg img {
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+.col1 {
+    grid-column: span 1
+}
+
+.col2 {
+    grid-column: span 2
+}
+
+.col3 {
+    grid-column: span 3
+}
+
+.row1 {
+    grid-row: span 1
+}
+
+.row2 {
+    grid-row: span 2
+}
+
+.row3 {
+    grid-row: span 3
+}
+
+.header {
+    margin-top: -100px;
+}
+
+.thanks {}
+
+ul.check li {
+    list-style-image: url(../img/check.svg);
+}
+
+ul.arrow li {
+    list-style-image: url(../img/arrow.svg);
+}
+
+.button {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 1ex 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.button:hover {
+    background-color: #00000043;
+}
+
+.all {
+    display: block;
+    margin: -1em;
+    padding: 1em;
+}
+
+.all:hover {
+    background-color: #00000043;
+}
+
+.foto {
+    mix-blend-mode: normal;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.foto img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        display: block;
+        margin: 1em;
+    }
+    section {
+        margin-bottom: 1em;
+    }
+    .header h1 {
+        writing-mode: horizontal-tb;
+        width: auto
+    }
 }
