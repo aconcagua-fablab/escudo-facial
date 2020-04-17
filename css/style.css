@@ -36,11 +36,11 @@ h2 {
 
 h1 {
     font-weight: 800;
-    margin: 0 auto;
+    margin: 0;
     writing-mode: vertical-rl;
-    text-align: left;
+    text-align: right;
+    transform: rotate(180deg);
     font-size: 3rem;
-    width: auto;
     line-height: 2.7rem;
 }
 
@@ -221,6 +221,6 @@ ul.arrow li {
     }
     .header h1 {
         writing-mode: horizontal-tb;
-        width: auto
+        transform: none;
     }
 }
