@@ -37,8 +37,8 @@ h2 {
 h1 {
     font-weight: 800;
     margin: 0 auto;
-    writing-mode: sideways-lr;
-    text-align: right;
+    writing-mode: vertical-rl;
+    text-align: left;
     font-size: 3rem;
     width: auto;
     line-height: 2.7rem;
