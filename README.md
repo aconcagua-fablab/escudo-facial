@@ -16,6 +16,6 @@ Aconcagua Fablab, en consorcio con una red de colaboradores locales, ha desarrol
 - Colegio Galileo
 - Dra. Marcia Valenzuela
 - Estudiantes Participando: María José Muñoz, Paula Baez, Matías Rubio, Felipe Berríos, José Tomás Guevara
-- Docentes Participando: Juan Carlos Jeldes, Alfred Thiers, Leonardo Aravena, Herbert Spencer
+- Docentes Participando: Juan Carlos Jeldes, Alfred Thiers, Leonardo Aravena, Herbert Spencer y Valentina Hirane
 
 Descargar [Archivos de Corte](src/escudo-facial-DXF.zip), ZIP comprimido con archivos DXF.
