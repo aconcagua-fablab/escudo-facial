@@ -1,5 +1,7 @@
 # Escudo Facial Laminar
 
+![Escudo Facial: Vista isométrica](./img/sq-03.jpg)
+
 La pandemia del coronavirus ha desatado **gran demanda en equipamiento** de protección para evitar su propagación, especialmente dentro de espacios hospitalarios para el personal de salud.
 
 **Aconcagua Fablab**, en consorcio con una red de colaboradores locales, ha desarrollado un diseño simple y altamente escalable para un escudo facial.
