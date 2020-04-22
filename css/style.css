@@ -232,7 +232,7 @@ ul.arrow li {
 }
 
 @media only screen and (max-width: 720px) {
-    body {
+    .container {
         display: block;
         margin: 4px;
     }
