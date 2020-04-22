@@ -80,6 +80,11 @@ h2 {
     font-size: 2em;
 }
 
+.iso-escuela {
+    text-align: left;
+    display: inline-block
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -111,6 +116,13 @@ nav>li>a {
 
 nav>li>a:hover {
     background-color: rgb(12, 88, 165);
+}
+
+.self {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .afl {
@@ -219,6 +231,7 @@ ul.arrow li {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
+    margin-bottom: 0;
 }
 
 .foto img {
@@ -250,12 +263,13 @@ ul.arrow li {
 }
 
 footer {
+    border-radius: 2px;
     margin: -4px 4px 0 4px;
     min-height: 100px;
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: rgb(21, 91, 161);
+    background-color: rgb(15, 61, 107);
 }
 
 footer p {
