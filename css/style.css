@@ -192,6 +192,10 @@ nav>li>a:hover {
     background-color: rgb(21, 91, 161);
 }
 
+.orders {
+    background-color: rgb(9, 60, 110);
+}
+
 ul.check li {
     list-style-image: url(../img/check.svg);
 }
@@ -222,12 +226,23 @@ ul.arrow li {
     width: calc(100% + 2em);
 }
 
+
+/* Inline #1 | http://localhost/~hspencer/escudo-facial/ */
+
+.aviso {
+    background-color: #ffffffad;
+    padding: 2ex 3ex;
+    border-radius: 5px;
+    color: #04275e;
+    text-shadow: none;
+    border: 2px solid #04275e;
+}
+
 .all:hover {
     background-color: #00000043;
 }
 
 .foto {
-    /* mix-blend-mode: normal; */
     padding: 0;
     overflow: hidden;
     background-color: transparent;
@@ -242,24 +257,6 @@ ul.arrow li {
 
 .u {
     text-decoration: underline;
-}
-
-@media only screen and (max-width: 720px) {
-    body {
-        margin-top: 104px;
-    }
-    .container {
-        display: block;
-        margin: 4px;
-    }
-    section {
-        margin-bottom: 4px;
-        ;
-    }
-    .header h1 {
-        writing-mode: horizontal-tb;
-        transform: none;
-    }
 }
 
 footer {
@@ -278,4 +275,25 @@ footer p {
     max-width: 75%;
     margin: 2rem;
     text-align: center;
+}
+
+
+/******************************************** pantallas pequeñas */
+
+@media only screen and (max-width: 720px) {
+    body {
+        margin-top: 104px;
+    }
+    .container {
+        display: block;
+        margin: 4px;
+    }
+    section {
+        margin-bottom: 4px;
+        ;
+    }
+    .header h1 {
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
 }
