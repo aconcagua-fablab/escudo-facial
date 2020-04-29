@@ -44,14 +44,14 @@ h2 {
 }
 
 h1 {
-    color: rgb(32, 127, 236);
+    color: #e42847;
     font-weight: 800;
     margin: 0;
     writing-mode: vertical-rl;
     text-align: right;
     transform: rotate(180deg);
     font-size: 6rem;
-    line-height: 5.7rem;
+    line-height: 5rem;
 }
 
 h2 {
@@ -84,7 +84,7 @@ h2 {
 }
 
 a {
-    color: #222020;
+    color: #e42847;
     text-decoration: none;
 }
 
@@ -204,9 +204,6 @@ ul.arrow li {
     width: calc(100% + 2em);
 }
 
-
-/* Inline #1 | http://localhost/~hspencer/escudo-facial/ */
-
 .aviso {
     background-color: #ffffffad;
     padding: 2ex 3ex;
@@ -217,7 +214,7 @@ ul.arrow li {
 }
 
 .all:hover {
-    background-color: #00000043;
+    background-color: #e428474d;
 }
 
 .foto {
@@ -255,10 +252,14 @@ footer p {
     text-align: center;
 }
 
+.start2 {
+    grid-column-start: 2;
+}
+
 
 /******************************************** pantallas pequeñas */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 800px) {
     body {
         margin-top: 104px;
     }
